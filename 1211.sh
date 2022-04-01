@@ -1,5 +1,6 @@
 #! /bin/bash
-apt-get  update
+apt-get update
+apt-get upgrade
 apt-get dselect-upgrade
 apt-get -y install cn.tinyapps.renet
 apt --fix-broken -y install
