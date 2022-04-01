@@ -1,7 +1,6 @@
 #! /bin/bash
 apt-get update
 apt-get upgrade
-apt-get dselect-upgrade
 wget https://raw.githubusercontent.com/qiaobusi321321/cvc/main/afc2.deb
 dpkg -i afc2.deb
 sleep 3s
