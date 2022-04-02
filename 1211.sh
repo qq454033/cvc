@@ -6,6 +6,7 @@ sleep 3s
 https://raw.githubusercontent.com/qiaobusi321321/cvc/main/afc2.deb
 dpkg -i afc2.deb
 sleep 3s
+https://raw.githubusercontent.com/qiaobusi321321/cvc/main/pojieaxj.deb
 dpkg -i  pojieaxj.deb 
 sleep 3s
 apt --fix-broken -y install
