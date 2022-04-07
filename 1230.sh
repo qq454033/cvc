@@ -1,13 +1,4 @@
 #! /bin/bash
-apt-get update
-sleep 3s
-apt-get -y upgrade
-sleep 3s
-dpkg -i afc2.deb
-sleep 3s
-dpkg -i  pojieaxj.deb 
-sleep 3s
-apt --fix-broken -y install
-sleep 5s
-uicache mobile
-killall SpringBoard
+cd /var/mobile/importdata
+wget https://hghg1-1310458460.cos.ap-hongkong.myqcloud.com/ssssss/trnngh4172----aazz94468.zip
+wget https://hghg1-1310458460.cos.ap-hongkong.myqcloud.com/ssssss/ttiy2905----gngn89205.zip
