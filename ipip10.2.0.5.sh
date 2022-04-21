@@ -1,5 +1,6 @@
 #! /bin/bash
 yum -y update
+cd /etc/sysconfig/network-scripts
 touch ifcfg-eth0:1
 touch ifcfg-eth0:2
 touch ifcfg-eth0:3
