@@ -1,6 +1,8 @@
 #! /bin/bash
 yum -y update
+sleep 11s
 cd /etc/sysconfig/network-scripts
+sleep 12s
 touch ifcfg-eth0:1
 touch ifcfg-eth0:2
 touch ifcfg-eth0:3
