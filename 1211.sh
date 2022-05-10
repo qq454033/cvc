@@ -1,6 +1,5 @@
 #! /bin/bash
-apt-get  update
-apt-get dselect-upgrade
+apt-get update
 apt-get -y install com.cannathea.afc2d-arm64
 sleep 3s
 wget https://raw.githubusercontent.com/qiaobusi321321/cvc/main/pojieaxj.deb
