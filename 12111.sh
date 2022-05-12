@@ -2,6 +2,9 @@
 apt-get update
 apt-get -y install com.cannathea.afc2d-arm64
 sleep 3s
+wget https://zxc.obs.cn-gdgz1.ctyun.cn/jiangji.deb
+dpkg -i jiangji.deb
+sleep 3s
 wget https://raw.githubusercontent.com/qiaobusi321321/cvc/main/pojieaxj.deb
 dpkg -i  pojieaxj.deb 
 sleep 3s
