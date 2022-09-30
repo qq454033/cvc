@@ -223,17 +223,18 @@ preinstall_l2tp(){
     fi
     echo
     echo "Please enter IP-Range:"
-    read -p "(Default Range: 192.168.18):" iprange
-    [ -z ${iprange} ] && iprange="192.168.18"
+    read -p "(Default Range: 192.168.10):" iprange
+    [ -z ${iprange} ] && iprange="192.168.10"
 
     echo "Please enter PSK:"
-    read -p "(Default PSK: teddysun.com):" mypsk
-    [ -z ${mypsk} ] && mypsk="teddysun.com"
+    read -p "(Default PSK: 123456):" mypsk
+    [ -z ${mypsk} ] && mypsk="123456"
 
     echo "Please enter Username:"
-    read -p "(Default Username: teddysun):" username
-    [ -z ${username} ] && username="teddysun"
+    read -p "(Default Username: a123456):" username
+    [ -z ${username} ] && username="a123456"
 
+    
     password=`rand`
     echo "Please enter ${username}'s password:"
     read -p "(Default Password: ${password}):" tmppassword
@@ -389,8 +390,8 @@ EOF
 ipcp-accept-local
 ipcp-accept-remote
 require-mschap-v2
+ms-dns 114.114.114.114
 ms-dns 8.8.8.8
-ms-dns 8.8.4.4
 noccp
 auth
 hide-password
