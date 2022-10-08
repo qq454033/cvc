@@ -1,4 +1,6 @@
 # This is a basic workflow to help you get started with Actions
+- 名称：StyleCI CLI
+  用途：ghostwriter/styleci-action@latest
 
 name: CI
 
